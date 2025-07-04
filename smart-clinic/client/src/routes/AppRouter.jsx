@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import Home from './pages/Home';
-import Patients from './pages/Patients';
-import Doctors from './pages/Doctors';
-import Appointments from './pages/Appointments';
+import NavBar from "../components/NavBar";
+import Home from '../pages/Home';
+import Patients from '../pages/Patients';
+import Doctors from '../pages/Doctors';
+import Appointments from '../pages/Appointments';
 
 export default function AppRouter() {
   return (
